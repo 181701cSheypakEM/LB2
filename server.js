@@ -27,10 +27,10 @@ app.get('/login/2', (req, res) =>
   res.set({ 'Content-Type': 'application/json; charset=utf-8' }).send(JSON.stringify(secondName))
 );
 app.get('/login/code1', (req, res) =>
-  res.set({ 'Content-Type': 'text/html' }).send('<style>strong{font-size:21px;}</style><strong>Morozov</strong>')
+  res.set({ 'Content-Type': 'text/html' }).send('<style>strong{font-size:21px;}</style><strong>Sheypak</strong>')
 );
 app.get('/login/code2', (req, res) =>
-  res.set({ 'Content-Type': 'text/plain' }).send('<style>strong{font-size:21px;}</style><strong>Morozov</strong>')
+  res.set({ 'Content-Type': 'text/plain' }).send('<style>strong{font-size:21px;}</style><strong>Sheypak</strong>')
 );
 app.get('/promise', (req, res) => res.send(task.toString()));
 app.get('/promise/:val', async (req, res) => {
